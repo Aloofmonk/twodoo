@@ -134,4 +134,12 @@ footer {
   .container{
     padding: 10px;
   }
+
+  .add-form {
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    margin: 10px 0;
+  }
 }
