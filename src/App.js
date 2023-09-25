@@ -10,15 +10,15 @@ function App() {
     const[tasks, setTasks] = useState([
       {
           id:1,
-          name:'Doctors Appointment',
-          date: 'feb 5th at 2:30pm',
+          name:'Parent Teachers Meeting',
+          date: 'feb 25th at 10:30am',
           reminder: true,
 
       },
       {
           id:2,
-          name:'Meeting at School',
-          date: 'feb 6th at 1:30pm',
+          name:'Doctors Appointment',
+          date: 'Jul 6th at 3:00pm',
           reminder: true,
 
       },
