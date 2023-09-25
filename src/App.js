@@ -54,11 +54,16 @@ function App() {
     }
 
   return (
-    <div className='container'>
-      <Header title='Task Master' add={add} showAddTask={showAddTask}/>
-      { showAddTask && <AddTask onAdd={addTask}/>}
-      {tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/> : 'There are no current tasks'}
+    <div className='all-container'>
+      <div className="container">
+        <Header title='twoDoo' add={add} showAddTask={showAddTask}/>
+        <AddTask onAdd={addTask}/>
+      </div>
+      <div className="container-two">
+        {tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/> : 'There are no current tasks'}
+      </div>
     </div>
+    
   );
 }
 

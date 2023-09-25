@@ -10,9 +10,23 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.all-container{
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  max-width: 500px;
-  margin: 30px auto;
+  max-width: 5000px;
+  /* margin: 30px auto; */
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+.container-two {
+  max-width: 5000px;
+  /* margin: 30px auto; */
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
