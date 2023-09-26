@@ -20,16 +20,18 @@ body {
   /* margin: 30px auto; */
   overflow: auto;
   min-height: 300px;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   padding: 30px;
   border-radius: 5px;
+  box-shadow: 0 0 10px rgb(183, 181, 181);
 }
 .container-two {
   max-width: 5000px;
   /* margin: 30px auto; */
   overflow: auto;
   min-height: 300px;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
+  box-shadow: 0 0 10px rgb(183, 181, 181);
   padding: 30px;
   border-radius: 5px;
 }
